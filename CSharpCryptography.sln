@@ -3,7 +3,55 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCryptography.Aes", "CSharpCryptography.Aes\CSharpCryptography.Aes.csproj", "{84C83B0F-B097-4809-B8F3-F617A30AB4B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCryptography.Test", "CSharpCryptography.Test\CSharpCryptography.Test.csproj", "{6398393A-44E7-4249-8F67-DABC07284265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCryptography.Des", "CSharpCryptography.Des\CSharpCryptography.Des.csproj", "{CC0E014D-3C21-488E-AA08-DB9B71FCF466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCryptography.Rc2", "CSharpCryptography.Rc2\CSharpCryptography.Rc2.csproj", "{E47F1870-01C7-4807-B482-A46D6A3B08D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCryptography.Rijndael", "CSharpCryptography.Rijndael\CSharpCryptography.Rijndael.csproj", "{3B9B5DC6-F875-48E2-8228-0E11C10511E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCryptography.Shared", "CSharpCryptography.Shared\CSharpCryptography.Shared.csproj", "{3271639F-DD33-40B3-AFB2-30A396A21338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCryptography.TripleDes", "CSharpCryptography.TripleDes\CSharpCryptography.TripleDes.csproj", "{509B7F1E-4BF3-415F-B5B2-87AE1427E459}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84C83B0F-B097-4809-B8F3-F617A30AB4B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C83B0F-B097-4809-B8F3-F617A30AB4B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C83B0F-B097-4809-B8F3-F617A30AB4B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C83B0F-B097-4809-B8F3-F617A30AB4B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6398393A-44E7-4249-8F67-DABC07284265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6398393A-44E7-4249-8F67-DABC07284265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6398393A-44E7-4249-8F67-DABC07284265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6398393A-44E7-4249-8F67-DABC07284265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC0E014D-3C21-488E-AA08-DB9B71FCF466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0E014D-3C21-488E-AA08-DB9B71FCF466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0E014D-3C21-488E-AA08-DB9B71FCF466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0E014D-3C21-488E-AA08-DB9B71FCF466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E47F1870-01C7-4807-B482-A46D6A3B08D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47F1870-01C7-4807-B482-A46D6A3B08D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47F1870-01C7-4807-B482-A46D6A3B08D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47F1870-01C7-4807-B482-A46D6A3B08D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B9B5DC6-F875-48E2-8228-0E11C10511E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9B5DC6-F875-48E2-8228-0E11C10511E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9B5DC6-F875-48E2-8228-0E11C10511E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9B5DC6-F875-48E2-8228-0E11C10511E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3271639F-DD33-40B3-AFB2-30A396A21338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3271639F-DD33-40B3-AFB2-30A396A21338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3271639F-DD33-40B3-AFB2-30A396A21338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3271639F-DD33-40B3-AFB2-30A396A21338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{509B7F1E-4BF3-415F-B5B2-87AE1427E459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509B7F1E-4BF3-415F-B5B2-87AE1427E459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509B7F1E-4BF3-415F-B5B2-87AE1427E459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509B7F1E-4BF3-415F-B5B2-87AE1427E459}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
